@@ -345,5 +345,5 @@ function touchStarted() {
     birdUp(" ");
   }
   // Prevent default touch behavior (e.g., scrolling)
-  return false;
+  return true;
 }
